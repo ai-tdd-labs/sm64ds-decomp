@@ -19,9 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| arm9 func_0201d6a0 (0x0201d6a0, size 0x1b0; API clm_d80f08d21a07) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 12, div=3 refinement |
-| ov060 func_ov060_02114d08 (0x02114d08, size 0x194; API clm_6d57e1d53ed2) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 12, div=3 refinement |
-| ov006 func_ov006_02125cdc (0x02125cdc, size 0x28c; API clm_9905232abbf8) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 12, div=3 refinement |
+| arm9 func_0201d6a0 (0x0201d6a0, size 0x1b0; API clm_d80f08d21a07) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — strict div=3 range-propagation/operand-order wall; no src change |
+| ov060 func_ov060_02114d08 (0x02114d08, size 0x194; API clm_6d57e1d53ed2) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | matched — exact 404 bytes, strict + linkcheck VERIFIED; API lock retained for source PR |
+| ov006 func_ov006_02125cdc (0x02125cdc, size 0x28c; API clm_9905232abbf8) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — strict div=3 pure ip/lr register-coloring wall; no src change |
 | arm9 func_02071364 (0x02071364, size 0x1ac; API clm_271f72b93cb7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | matched — exact 428 bytes, strict + linkcheck VERIFIED; PR #396 open, API lock retained until merge |
 | arm9 func_0201ef50 (0x0201ef50, size 0x1b8; API clm_783f522d740d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — div=2 load/shift scheduler floor; no src change |
 | ov060 func_ov060_02113740 (0x02113740, size 0x354; API clm_138e743dd9a3) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — documented add/store scheduler floor reproduced; no src change |
