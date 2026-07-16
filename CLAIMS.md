@@ -26,9 +26,9 @@ it is fair to take over: ping the claimant first.
 | ov002 func_ov002_020d9c70 (0x020d9c70, size 0x15c) | ai-tdd-labs (Codex executor 9) | 2026-07-16 | done — byte-identical, PR #369 |
 | ov002 func_ov002_020f7bb8 (0x020f7bb8, size 0x1bc) | ai-tdd-labs (Codex executor 10) | 2026-07-16 | done — byte-identical, PR #370 |
 | ov002 func_ov002_020e4768 (0x020e4768, size 0x204) | ai-tdd-labs (Codex executor 11) | 2026-07-16 | released near-miss — div=2 r0-vs-r2 coloring floor |
-| ov002 _ZN6Player14St_Squish_MainEv (0x020c662c, size 0x2dc) | ai-tdd-labs (Codex executor 12) | 2026-07-16 | active — next free div=2 by size |
-| ov002 _ZN5Enemy14UpdateYoshiEatER12WithMeshClsn (0x020ade78, size 0x3cc) | ai-tdd-labs (Codex executor 13) | 2026-07-16 | active — next free div=2 by size |
-| ov002 _ZN6Player19St_GroundPound_MainEv (0x020dd9f8, size 0x3f8) | ai-tdd-labs (Codex executor 14) | 2026-07-16 | active — next free div=2 by size |
+| ov002 _ZN6Player14St_Squish_MainEv (0x020c662c, size 0x2dc) | ai-tdd-labs (Codex executor 12) | 2026-07-16 | released near-miss — div=2 r2-vs-r0 coloring floor |
+| ov002 _ZN5Enemy14UpdateYoshiEatER12WithMeshClsn (0x020ade78, size 0x3cc) | ai-tdd-labs (Codex executor 13) | 2026-07-16 | released near-miss — div=2 instruction-order scheduler floor |
+| ov002 _ZN6Player19St_GroundPound_MainEv (0x020dd9f8, size 0x3f8) | ai-tdd-labs (Codex executor 14) | 2026-07-16 | released near-miss — div=2 add-vs-stack-load ordering floor |
 | ov095: func_ov095_021357d8 (0x021357d8), func_ov095_021358cc (0x021358cc), func_ov095_02135cdc (0x02135cdc), UpDownLiftBbh::InitResources (0x021365d8), Flamethrower::Behavior (0x021368f0), Flamethrower::InitResources (0x02136d60) | lunavyqo | 2026-07-12 | done (partial) — 357d8 + UpDownLift InitResources MATCH (PR #305); 35cdc near-miss div≈40 in DB; 358cc/Flamethrower still open |
 | ov019 func_ov019_02111558 (0x02111558, size 0x1fc) | lunavyqo | 2026-07-12 | done - verified byte-identical, draft PR |
 | _example: ov004 0x020b0000-0x020b8000_ | _handle_ | _2026-06-17_ | _example_ |
