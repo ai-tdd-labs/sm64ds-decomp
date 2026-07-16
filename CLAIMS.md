@@ -19,6 +19,10 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov063 func_ov063_0211640c (0x0211640c, size 0x2a0) | ai-tdd-labs (Codex executor 6) | 2026-07-16 | active — easiest free div=1 near-miss |
+| arm9 func_0206e3dc (0x0206e3dc, size 0x74) | ai-tdd-labs (Codex root) | 2026-07-16 | active — smallest free div=2 near-miss |
+| ov002 func_ov002_020bf36c (0x020bf36c, size 0xa0) | ai-tdd-labs (Codex executor 7) | 2026-07-16 | active — small free div=2 near-miss |
+| ov007 func_ov007_020cc4c0 (0x020cc4c0, size 0x140) | ai-tdd-labs (Codex executor 8) | 2026-07-16 | active — next-smallest free div=2 near-miss |
 | ov095: func_ov095_021357d8 (0x021357d8), func_ov095_021358cc (0x021358cc), func_ov095_02135cdc (0x02135cdc), UpDownLiftBbh::InitResources (0x021365d8), Flamethrower::Behavior (0x021368f0), Flamethrower::InitResources (0x02136d60) | lunavyqo | 2026-07-12 | done (partial) — 357d8 + UpDownLift InitResources MATCH (PR #305); 35cdc near-miss div≈40 in DB; 358cc/Flamethrower still open |
 | ov019 func_ov019_02111558 (0x02111558, size 0x1fc) | lunavyqo | 2026-07-12 | done - verified byte-identical, draft PR |
 | _example: ov004 0x020b0000-0x020b8000_ | _handle_ | _2026-06-17_ | _example_ |
