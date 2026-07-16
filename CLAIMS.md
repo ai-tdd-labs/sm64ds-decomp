@@ -19,10 +19,10 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| arm9 func_02071364 (0x02071364, size 0x1ac; API clm_271f72b93cb7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 11, div=1 refinement; strict oracle + linkcheck required |
-| arm9 func_0201ef50 (0x0201ef50, size 0x1b8; API clm_783f522d740d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 11, div=2 refinement; strict oracle + linkcheck required |
-| ov060 func_ov060_02113740 (0x02113740, size 0x354; API clm_138e743dd9a3) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 11, div=2 refinement; strict oracle + linkcheck required |
-| ov006 func_ov006_020eb3e4 (0x020eb3e4, size 0x174; API clm_231921c9d027) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | active — round 11 replacement lane, div=4 refinement; strict oracle + linkcheck required |
+| arm9 func_02071364 (0x02071364, size 0x1ac; API clm_271f72b93cb7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | matched — exact 428 bytes, strict + linkcheck VERIFIED; PR #396 open, API lock retained until merge |
+| arm9 func_0201ef50 (0x0201ef50, size 0x1b8; API clm_783f522d740d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — div=2 load/shift scheduler floor; no src change |
+| ov060 func_ov060_02113740 (0x02113740, size 0x354; API clm_138e743dd9a3) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — documented add/store scheduler floor reproduced; no src change |
+| ov006 func_ov006_020eb3e4 (0x020eb3e4, size 0x174; API clm_231921c9d027) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | matched — exact 372 bytes, strict + linkcheck VERIFIED; PR #396 open, API lock retained until merge |
 | main (arm9): 7 funcs — 02048234, 02048720, 020490b0, 020494cc, 0204bbd8, 0204be40, 0204c304 (also locked via claims api) | ai-tdd-labs (claude-fable) | 2026-07-16 | released (api locks freed; no matches landed) |
 | ov004: func_ov004_020af2f8 (0x020af2f8, size 0x2e8) | lunavyqo (Grok) | 2026-07-16 | **done** — verified byte-identical (mwccarm 1.2/sp2p3); claim clm_a25f174bbe49 kept active |
 | ov006 func_ov006_020fc8c0 (0x020fc8c0, size 0xf0) | Codex/Raman | 2026-07-16 | active — batch 11, free div=6 refinement |
