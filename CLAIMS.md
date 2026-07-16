@@ -19,6 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov007 func_ov007_020c4684 (0x020c4684, size 0x338; API clm_3e5d03c564c2) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 12 replacement, div=4 refinement |
+| ov002 func_ov002_020caf98 (0x020caf98, size 0x1c4; API clm_197b51e9fd98) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 12 replacement, div=4 refinement |
+| ov002 _ZN10StarSwitch13InitResourcesEv (0x020ba83c, size 0x1f0; API clm_edbf601ad3e6) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 12 replacement, div=5 refinement |
 | arm9 func_0202f928 (0x0202f928, size 0x208; API clm_81a2c92ed682) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — strict div=3 cached-type register-coloring wall; no src change |
 | ov006 func_ov006_020c8680 (0x020c8680, size 0xe8; API clm_ecf62ba68a37) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — strict div=2 store/pool-load scheduler wall; no src change |
 | ov002 func_ov002_020e4768 (0x020e4768, size 0x204; API clm_abc55eecd35f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-16 | released — strict div=2 object-slot scratch-register wall; no src change |
