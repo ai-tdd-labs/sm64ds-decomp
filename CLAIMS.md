@@ -19,9 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov007 func_ov007_020c81a0 (0x020c81a0, size 0x17c; API clm_d900d3329011) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 13, div=5 refinement |
-| arm9 _ZN9ActorBase9Virtual34Ejj (0x0204357c, size 0x294; API clm_734248f1ccf6) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 13, div=5 refinement |
-| ov006 func_ov006_0210ff1c (0x0210ff1c, size 0x18c; API clm_fd5854386fc1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 13 replacement after live conflict, div=5 refinement |
+| ov007 func_ov007_020c81a0 (0x020c81a0, size 0x17c; API clm_d900d3329011) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | matched — exact 380 bytes, strict + linkcheck VERIFIED blind=0; lock retained for PR |
+| arm9 _ZN9ActorBase9Virtual34Ejj (0x0204357c, size 0x294; API clm_734248f1ccf6) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | matched — exact 660 bytes, strict + linkcheck VERIFIED blind=0; lock retained for PR |
+| ov006 func_ov006_0210ff1c (0x0210ff1c, size 0x18c; API clm_fd5854386fc1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | matched — exact 396 bytes, strict + linkcheck VERIFIED blind=0; lock retained for PR |
 | ov007 func_ov007_020c4684 (0x020c4684, size 0x338; API clm_3e5d03c564c2) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — strict div=4 reversed conversion-chain schedule; no src change |
 | ov002 func_ov002_020caf98 (0x020caf98, size 0x1c4; API clm_197b51e9fd98) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | matched — exact 452 bytes, strict + linkcheck VERIFIED blind=0; API lock retained for source PR |
 | ov002 _ZN10StarSwitch13InitResourcesEv (0x020ba83c, size 0x1f0; API clm_edbf601ad3e6) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — strict div=5 branch/if-conversion wall; no src change |
