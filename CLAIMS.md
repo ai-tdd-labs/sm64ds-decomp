@@ -23,6 +23,9 @@ it is fair to take over: ping the claimant first.
 | arm9 func_0206e3dc (0x0206e3dc, size 0x74) | ai-tdd-labs (Codex root) | 2026-07-16 | done — byte-identical, PR #367 |
 | ov002 func_ov002_020bf36c (0x020bf36c, size 0xa0) | ai-tdd-labs (Codex executor 7) | 2026-07-16 | released near-miss — div=2 r2-vs-r0 coloring floor |
 | ov007 func_ov007_020cc4c0 (0x020cc4c0, size 0x140) | ai-tdd-labs (Codex executor 8) | 2026-07-16 | released near-miss — literal-pool ldr-vs-mov floor |
+| ov002 func_ov002_020d9c70 (0x020d9c70, size 0x15c) | ai-tdd-labs (Codex executor 9) | 2026-07-16 | active — smallest remaining free div=2 ov002 near-miss |
+| ov002 func_ov002_020f7bb8 (0x020f7bb8, size 0x1bc) | ai-tdd-labs (Codex executor 10) | 2026-07-16 | active — next-smallest free div=2 ov002 near-miss |
+| ov002 func_ov002_020e4768 (0x020e4768, size 0x204) | ai-tdd-labs (Codex executor 11) | 2026-07-16 | active — third-smallest free div=2 ov002 near-miss |
 | ov095: func_ov095_021357d8 (0x021357d8), func_ov095_021358cc (0x021358cc), func_ov095_02135cdc (0x02135cdc), UpDownLiftBbh::InitResources (0x021365d8), Flamethrower::Behavior (0x021368f0), Flamethrower::InitResources (0x02136d60) | lunavyqo | 2026-07-12 | done (partial) — 357d8 + UpDownLift InitResources MATCH (PR #305); 35cdc near-miss div≈40 in DB; 358cc/Flamethrower still open |
 | ov019 func_ov019_02111558 (0x02111558, size 0x1fc) | lunavyqo | 2026-07-12 | done - verified byte-identical, draft PR |
 | _example: ov004 0x020b0000-0x020b8000_ | _handle_ | _2026-06-17_ | _example_ |
