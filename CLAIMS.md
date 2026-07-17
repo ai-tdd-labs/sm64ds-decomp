@@ -19,6 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov006 func_ov006_021228bc (0x021228bc, size 0x160; API clm_4fd328256139) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 31 bounded lane; source absent on origin/main ec5566d8; strict oracle + linkcheck required |
+| ov006 func_ov006_021009b8 (0x021009b8, size 0x150; API clm_9b956605d2b1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 31 bounded lane; source absent on origin/main ec5566d8; strict oracle + linkcheck required |
+| ov002 func_ov002_020f20f4 (0x020f20f4, size 0x11c; API clm_5f3e577d7a4e) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 31 bounded lane; source absent on origin/main ec5566d8; strict oracle + linkcheck required |
 | ov075 func_ov075_0211afb0 (0x0211afb0, size 0x21c; API clm_45e5d3fb5b96) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~18 min at exact-size strict div=4; second vertex-pack register-color wall; seed retained outside src |
 | arm9 func_020676e0 (0x020676e0, size 0x1c4; API clm_f893810ec683) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants at exact-size strict div=4; final case-2 scheduling wall; existing DB best retained |
 | ov006 func_ov006_0210935c (0x0210935c, size 0x150; API clm_e16912104670) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 8 material variants / 596 s; strict MATCH + linkcheck VERIFIED blind=0; pending next source-only PR |
