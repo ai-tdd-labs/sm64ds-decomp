@@ -19,6 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov006 func_ov006_02125cdc (0x02125cdc, size 0x28c; API clm_d0fbebb6a667) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 22 div=3 bounded refinement; strict oracle + linkcheck blind=0 |
+| arm9 func_0202f928 (0x0202f928, size 0x208; API clm_c2f5264eba4e) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 22 div=3 bounded refinement; strict oracle + linkcheck blind=0 |
 | arm9 func_0201d6a0 (0x0201d6a0, size 0x1b0; API clm_021e92fddd72) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~20 min at exact size with three compiler-ordering diffs (+0xf4/+0xfc/+0x120); near-miss ingest retained existing equal DB-best |
 | arm9 func_0201ef50 (0x0201ef50, size 0x1b8; API clm_ba2e25551332) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 5.0 min at exact size with two swapped instructions (+0x150/+0x154); near-miss ingest retained existing equal DB-best |
 | ov090 func_ov090_021327e4 (0x021327e4, size 0x274; API clm_1cff3ed53f7b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 9 variants / ~7 min; strict MATCH + linkcheck VERIFIED blind=0; PR #441 open |
