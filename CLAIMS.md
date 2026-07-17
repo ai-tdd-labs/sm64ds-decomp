@@ -19,6 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| arm9 func_0201d6a0 (0x0201d6a0, size 0x1b0; API clm_021e92fddd72) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 21 div=3 refinement; strict oracle + linkcheck blind=0 |
+| arm9 func_0201ef50 (0x0201ef50, size 0x1b8; API clm_ba2e25551332) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 21 div=2 refinement; strict oracle + linkcheck blind=0 |
 | ov090 func_ov090_021327e4 (0x021327e4, size 0x274; API clm_1cff3ed53f7b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 21 div=1 refinement; strict oracle + linkcheck blind=0 |
 | ov063 func_ov063_02118914 (0x02118914, size 0xe0; API clm_efa527908605) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — PR #437 merged; source hash and strict MATCH + linkcheck VERIFIED blind=0 reconfirmed on origin/main 419268df |
 | arm9 func_020457f0 (0x020457f0, size 0xb8; API clm_10aebd9929a4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — near miss after 10 variants / 6.5 min: exact 0xb8 size, 27 non-reloc word diffs; register-allocation and initializer/table-load scheduling wall; best candidate ingested into near-miss DB |
