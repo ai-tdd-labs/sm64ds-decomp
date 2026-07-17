@@ -19,7 +19,7 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| arm9 func_02044b30 (0x02044b30, size 0x294; API clm_41e78d996ff9) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
+| arm9 func_02044b30 (0x02044b30, size 0x294; API clm_41e78d996ff9) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked 169-vs-165 instruction allocator/loop-lowering wall; no src change |
 | ov006 func_ov006_020e5b7c (0x020e5b7c, size 0x2c0; API clm_33e9b897eb78) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
 | ov002 func_ov002_020f4d70 (0x020f4d70, size 0x2a0; API clm_70d9907f3b4c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked exact-size shape at register/lifetime + spilled-pointer wall; no src change |
 | ov007 func_ov007_020c1448 (0x020c1448, size 0x70; API clm_bc5fd241756b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=8 bitfield-OR scheduling/register wall; no src change |
