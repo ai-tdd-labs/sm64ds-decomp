@@ -19,8 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov002 func_ov002_020bf13c (0x020bf13c, size 0xe8; API clm_1257e477a643) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 24 fresh easy function; strict oracle + linkcheck blind=0 |
-| arm9 _ZN18NestedHeapIterator5AddAtEP13HeapAllocatorS1_ (0x0204dd98, size 0x74; API clm_7e4bc355b339) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 24 fresh easy function; strict oracle + linkcheck blind=0 |
+| ov002 func_ov002_020bf13c (0x020bf13c, size 0xe8; API clm_1257e477a643) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — fresh reconstruction parked after 10 variants / 545 s; semantic scalar candidate 0xd8 vs retail 0xe8 due preserved unused stackframe; near-miss DB improved |
+| arm9 _ZN18NestedHeapIterator5AddAtEP13HeapAllocatorS1_ (0x0204dd98, size 0x74; API clm_7e4bc355b339) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 498 s at exact size with five ip/lr register-color diffs; near-miss DB improved |
 | ov063 func_ov063_0211a3d0 (0x0211a3d0, size 0x194; API clm_dbed78c91ba7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~8 min at exact size with six stack-copy scheduling/color diffs; near-miss ingest retained existing DB-best |
 | ov002 func_ov002_020e4768 (0x020e4768, size 0x204; API clm_298384cf4806) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 357 s at exact size with two C++ receiver register-color diffs (+0x8c/+0x90); near-miss ingest retained existing DB-best |
 | ov006 func_ov006_02125cdc (0x02125cdc, size 0x28c; API clm_d0fbebb6a667) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~8 min at exact size with three ip/lr register-color diffs (+0xc8/+0xd0/+0xe4); near-miss ingest retained existing equal DB-best |
