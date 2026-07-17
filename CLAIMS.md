@@ -19,8 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| arm9 func_02060b64 (0x02060b64, size 0x148; API clm_58523416c369) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
 | ov006 func_ov006_020e1680 (0x020e1680, size 0x178; API clm_576ac7781944) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
-| ov060 func_ov060_02118728 (0x02118728, size 0x10c; API clm_0ee84ee9c7d5) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov060 func_ov060_02118728 (0x02118728, size 0x10c; API clm_0ee84ee9c7d5) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 373 s at strict div=8; initial Vector3 first-access scheduling wall; seed retained outside src |
 | ov007 func_ov007_020c43bc (0x020c43bc, size 0x108; API clm_10c7734db70b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
 | ov084 func_ov084_021294d0 (0x021294d0, size 0x1e0; API clm_ad45e1d12767) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 5 material variants / ~9 min; strict MATCH + linkcheck VERIFIED blind=0; PR #448 open |
 | ov060 func_ov060_02112724 (0x02112724, size 0x19c; API clm_c1b251fb0fde) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 713 s at 0x198 vs 0x19c; final Z-address materialization wall; seed retained outside src |
