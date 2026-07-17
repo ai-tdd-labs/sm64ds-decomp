@@ -19,6 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| arm9 func_020729f4 (0x020729f4, size 0x39c; API clm_df38350b237f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 34 fresh lane; both source extensions absent on origin/main ec5566d8; no target near-miss DB record; strict oracle + linkcheck required |
+| ov002 func_ov002_020f4710 (0x020f4710, size 0x31c; API clm_21f2aadd0b31) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 34 fresh lane; both source extensions absent on origin/main ec5566d8; no near-miss DB record; strict oracle + linkcheck required |
+| ov006 func_ov006_020e1854 (0x020e1854, size 0x300; API clm_97ed95d54aa1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 34 fresh lane; both source extensions absent on origin/main ec5566d8; no near-miss DB record; strict oracle + linkcheck required |
 | arm9 func_0201b388 (0x0201b388, size 0x220; API clm_d5a626dcd28a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~18 min at exact-size strict div=14; initialization schedule plus swapped stack slots; existing DB div=8 retained; no src promotion |
 | ov062 func_ov062_02117724 (0x02117724, size 0x270; API clm_2dd072c10cb7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — stopped after 4 variants / 265 s at exact-size strict div=7; DB candidate documents Known Wall #2 pure scheduling; improved candidate re-ingested; no src promotion |
 | ov006 func_ov006_020f4cd8 (0x020f4cd8, size 0x2bc; API clm_5cf0e71b2c2f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~10 min at exact-size strict div=6; fresh scopes make one mode exact but move the p/i register swap to the next mode; existing DB best retained; no src promotion |
