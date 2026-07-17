@@ -19,8 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov102 func_ov102_0214baa0 (0x0214baa0, size 0x138; API clm_c9d08ea6be93) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 25 fresh easy function; strict oracle + linkcheck blind=0 |
-| ov006 func_ov006_0211bf44 (0x0211bf44, size 0x13c; API clm_0e949c10cda8) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 25 fresh easy function; strict oracle + linkcheck blind=0 |
+| ov102 func_ov102_0214baa0 (0x0214baa0, size 0x138; API clm_c9d08ea6be93) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 5 variants / 305 s; strict MATCH + linkcheck VERIFIED blind=0; PR #442 open |
+| ov006 func_ov006_0211bf44 (0x0211bf44, size 0x13c; API clm_0e949c10cda8) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 variants / 142 s; strict MATCH + linkcheck VERIFIED blind=0; PR #442 open |
 | ov002 func_ov002_020bf13c (0x020bf13c, size 0xe8; API clm_1257e477a643) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — fresh reconstruction parked after 10 variants / 545 s; semantic scalar candidate 0xd8 vs retail 0xe8 due preserved unused stackframe; near-miss DB improved |
 | arm9 _ZN18NestedHeapIterator5AddAtEP13HeapAllocatorS1_ (0x0204dd98, size 0x74; API clm_7e4bc355b339) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 498 s at exact size with five ip/lr register-color diffs; near-miss DB improved |
 | ov063 func_ov063_0211a3d0 (0x0211a3d0, size 0x194; API clm_dbed78c91ba7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~8 min at exact size with six stack-copy scheduling/color diffs; near-miss ingest retained existing DB-best |
