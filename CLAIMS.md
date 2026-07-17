@@ -19,13 +19,15 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov006 func_ov006_021231ac (0x021231ac, size 0x194; API clm_06ab51d4688c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 12; strict oracle + linkcheck blind=0 |
+| arm9 func_020319fc (0x020319fc, size 0x188; API clm_b09d3da9088f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 11; strict oracle + linkcheck blind=0 |
 | ov007 func_ov007_020b7138 (0x020b7138, size 0x168; API clm_e451b856087c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 11; strict oracle + linkcheck blind=0 |
-| ov006 func_ov006_02103d78 (0x02103d78, size 0x158; API clm_96b0c9815d7a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 9; strict oracle + linkcheck blind=0 |
-| ov002 func_ov002_020c7350 (0x020c7350, size 0x2a0; API clm_cedfe750e2b1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 4; strict oracle + linkcheck blind=0 |
-| ov002 func_ov002_020d6368 (0x020d6368, size 0x10c; API clm_fb85fcf4417c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 4 variants / ~5 min; strict MATCH + linkcheck VERIFIED blind=0; pending round 27 PR |
-| ov002 func_ov002_020c0fb4 (0x020c0fb4, size 0x280; API clm_af147b560624) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 4 variants / ~286 s; strict MATCH + linkcheck VERIFIED blind=0; pending round 27 PR |
+| ov006 func_ov006_02103d78 (0x02103d78, size 0x158; API clm_96b0c9815d7a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — improved DB divergence 9 to reproducible exact-size divergence 6 after 10 variants / ~468 s; pure r1/r2 register-color residual; seed preserved outside src |
+| ov002 func_ov002_020c7350 (0x020c7350, size 0x2a0; API clm_cedfe750e2b1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after targeted bool/control-flow refinement / 385 s; strict MATCH + linkcheck VERIFIED blind=0; PR #445 open |
+| ov002 func_ov002_020d6368 (0x020d6368, size 0x10c; API clm_fb85fcf4417c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 4 variants / ~5 min; strict MATCH + linkcheck VERIFIED blind=0; PR #445 open |
+| ov002 func_ov002_020c0fb4 (0x020c0fb4, size 0x280; API clm_af147b560624) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 4 variants / ~286 s; strict MATCH + linkcheck VERIFIED blind=0; PR #445 open |
 | arm9 func_0203bc7c (0x0203bc7c, size 0xa8; API clm_d42b59db96f4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 516 s at exact size; pool-load order, r5/r6/r7 coloring, and loop-increment scheduling residual; existing DB best retained |
-| ov002 func_ov002_020af4ec (0x020af4ec, size 0x198; API clm_cb8b15e1587a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 3 variants / ~320 s; strict MATCH + linkcheck VERIFIED blind=0; pending round 27 PR |
+| ov002 func_ov002_020af4ec (0x020af4ec, size 0x198; API clm_cb8b15e1587a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 3 variants / ~320 s; strict MATCH + linkcheck VERIFIED blind=0; PR #445 open |
 | arm9 func_020408b0 (0x020408b0, size 0x1ac; API clm_6485023b8dea) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 508 s at exact size with nine call-scheduling and r1/r2/writeback diffs; existing DB best retained |
 | ov002 _ZN5Enemy15IsGoingOffCliffER12WithMeshClsn5Fix12IiEsbbS3_ (0x020ae2b8, size 0x19c; API clm_ee31be647544) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 material variants; strict MATCH + linkcheck VERIFIED blind=0; PR #444 open |
 | ov070 func_ov070_0211fd98 (0x0211fd98, size 0x210; API clm_c39192c96fc0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 5 material variants / 593 s; strict MATCH + linkcheck VERIFIED blind=0; PR #444 open |
