@@ -22,7 +22,7 @@ it is fair to take over: ping the claimant first.
 | arm9 func_0204322c (0x0204322c, size 0x5c; API clm_ecd937ad6080) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — documented §9 ActorBase PMF prebuilt-object wall; no src change |
 | arm9 func_02043288 (0x02043288, size 0x5c; API clm_d6f28b3c7d35) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — documented §9 ActorBase PMF prebuilt-object wall; no src change |
 | arm9 func_0205e3d4 (0x0205e3d4, size 0x310; API clm_bd7c1638615a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked SHA-1 semantic candidate 0x2e4 vs target 0x310; loop-lowering wall |
-| ov006 func_ov006_021279b0 (0x021279b0, size 0x360; API clm_ec5fdad924c3) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
+| ov006 func_ov006_021279b0 (0x021279b0, size 0x360; API clm_ec5fdad924c3) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | done/released — PR #436 merged; exact 864 bytes, strict + linkcheck VERIFIED blind=0 |
 | ov002 func_ov002_020c2b08 (0x020c2b08, size 0x2b0; API clm_be20b3d0cfc9) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked exact-size four-word Vector3 r1/r2 allocation wall; no src change |
 | ov006 func_ov006_020ea914 (0x020ea914, size 0x324; API clm_626be4993968) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked: best 0x2fc vs target 0x324; compiler temp/register scheduling wall |
 | arm9 func_02061188 (0x02061188, size 0x2a0; API clm_f379e9e6fc15) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — bounded lane produced no reproducible strict match; no src promotion |
