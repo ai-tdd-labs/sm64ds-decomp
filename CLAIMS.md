@@ -19,8 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov063 func_ov063_0211a3d0 (0x0211a3d0, size 0x194; API clm_dbed78c91ba7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 23 div=5 bounded refinement; strict oracle + linkcheck blind=0 |
-| ov002 func_ov002_020e4768 (0x020e4768, size 0x204; API clm_298384cf4806) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 23 div=2 bounded refinement; strict oracle + linkcheck blind=0 |
+| ov063 func_ov063_0211a3d0 (0x0211a3d0, size 0x194; API clm_dbed78c91ba7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~8 min at exact size with six stack-copy scheduling/color diffs; near-miss ingest retained existing DB-best |
+| ov002 func_ov002_020e4768 (0x020e4768, size 0x204; API clm_298384cf4806) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 357 s at exact size with two C++ receiver register-color diffs (+0x8c/+0x90); near-miss ingest retained existing DB-best |
 | ov006 func_ov006_02125cdc (0x02125cdc, size 0x28c; API clm_d0fbebb6a667) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~8 min at exact size with three ip/lr register-color diffs (+0xc8/+0xd0/+0xe4); near-miss ingest retained existing equal DB-best |
 | arm9 func_0202f928 (0x0202f928, size 0x208; API clm_c2f5264eba4e) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 436 s at exact size with three r2/r3 register-color diffs (+0x0c/+0x10/+0x54); near-miss ingest retained existing equal DB-best |
 | arm9 func_0201d6a0 (0x0201d6a0, size 0x1b0; API clm_021e92fddd72) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~20 min at exact size with three compiler-ordering diffs (+0xf4/+0xfc/+0x120); near-miss ingest retained existing equal DB-best |
