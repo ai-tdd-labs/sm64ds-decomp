@@ -19,9 +19,10 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov002 _ZN6Player14St_Squish_MainEv (0x020c662c, size 0x2dc; API clm_f213be3f2a9d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 near-miss refine, DB divergence 2; strict oracle + linkcheck blind=0 |
 | ov006 func_ov006_020e8f14 (0x020e8f14, size 0x28c; API clm_b0d899a1a7d4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 near-miss refine, DB divergence 9; strict oracle + linkcheck blind=0 |
 | ov006 func_ov006_020f7ee4 (0x020f7ee4, size 0x270; API clm_dabd0a7f4963) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 near-miss refine, DB divergence 10; strict oracle + linkcheck blind=0 |
-| ov006 func_ov006_020f9994 (0x020f9994, size 0x258; API clm_2d4276f3ac1f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 29 near-miss refine, DB divergence 10; strict oracle + linkcheck blind=0 |
+| ov006 func_ov006_020f9994 (0x020f9994, size 0x258; API clm_2d4276f3ac1f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 554 s at exact size with nine case-0 register-allocation diffs; existing DB best retained |
 | ov002 func_ov002_020b10e4 (0x020b10e4, size 0x208; API clm_18299c04715b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 1 Vector3-order variant / 137 s; strict MATCH + linkcheck VERIFIED blind=0; PR #447 open |
 | ov065 _ZN15TtcRotatingCube8BehaviorEv (0x02119a50, size 0x1e8; API clm_8bcd5a170a6f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 4 semantic layouts / ~4 min; strict MATCH + linkcheck VERIFIED blind=0; PR #447 open |
 | ov007 func_ov007_020c8498 (0x020c8498, size 0x1f0; API clm_65b8d96fd316) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 control-flow variants / 276 s; strict MATCH + linkcheck VERIFIED blind=0; PR #446 open |
