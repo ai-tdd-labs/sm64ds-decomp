@@ -19,9 +19,10 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov007 func_ov007_020c8498 (0x020c8498, size 0x1f0; API clm_65b8d96fd316) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 14; strict oracle + linkcheck blind=0 |
 | ov007 func_ov007_020c8de0 (0x020c8de0, size 0x178; API clm_c41061e03605) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 14; strict oracle + linkcheck blind=0 |
 | ov006 func_ov006_0211134c (0x0211134c, size 0x214; API clm_bcfc44e25a5b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 8; strict oracle + linkcheck blind=0 |
-| ov100 func_ov100_02146e70 (0x02146e70, size 0x19c; API clm_9db4c22ec7ef) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 13; strict oracle + linkcheck blind=0 |
+| ov100 func_ov100_02146e70 (0x02146e70, size 0x19c; API clm_9db4c22ec7ef) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 1 targeted C89-local-order variant / 150 s; strict MATCH + linkcheck VERIFIED blind=0; pending next source-only PR |
 | ov004 func_ov004_020b38ac (0x020b38ac, size 0xcc; API clm_7c6fc01e5d1d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — improved divergence 13 to reproducible exact-size divergence 7 after 10 variants / ~474 s; stack-address and r4/r5 residual; seed preserved outside src |
 | ov006 func_ov006_020ef5ac (0x020ef5ac, size 0x1bc; API clm_59f14a26caee) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 478 s at exact size with 13 prologue/lifetime register-color diffs; existing DB best retained |
 | ov006 func_ov006_021231ac (0x021231ac, size 0x194; API clm_06ab51d4688c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 variants / ~177 s; strict MATCH + linkcheck VERIFIED blind=0; pending next source-only PR |
