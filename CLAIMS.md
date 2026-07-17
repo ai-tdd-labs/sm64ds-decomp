@@ -19,8 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| arm9 func_0205d688 (0x0205d688, size 0x8c; API clm_09f8f1942122) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 14 small replacement, div=5 refinement |
-| ov063 func_ov063_0211a3d0 (0x0211a3d0, size 0x194; API clm_9f350ebbaed7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 14 replacement, div=5 refinement |
+| arm9 func_0205d688 (0x0205d688, size 0x8c; API clm_09f8f1942122) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=5 parameter/local live-range coalescing wall; no src change |
+| ov063 func_ov063_0211a3d0 (0x0211a3d0, size 0x194; API clm_9f350ebbaed7) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at seven-word r2/r3 coloring wall after fixing stack order; no src change |
 | ov007 func_ov007_020c6550 (0x020c6550, size 0x6c; API clm_4672ff9a38e5) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=3 short-circuit compare register assignment; no src change |
 | arm9 func_02068dc8 (0x02068dc8, size 0x7c; API clm_21a387a4881a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=4 initial guard register-allocation wall; no src change |
 | ov090 func_ov090_021327e4 (0x021327e4, size 0x274; API clm_36aa8d8cc382) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=1 symmetric compare operand canonicalization; no src change |
