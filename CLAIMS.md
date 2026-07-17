@@ -19,9 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov006 func_ov006_02101088 (0x02101088, size 0xc0; API clm_84f67fb0219c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 32 bounded refinement; source absent on origin/main ec5566d8; DB div=16; strict oracle + linkcheck required |
-| ov006 func_ov006_021027e4 (0x021027e4, size 0x80; API clm_f24092f902a5) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 32 bounded refinement; source absent on origin/main ec5566d8; DB div=15; strict oracle + linkcheck required |
-| ov006 func_ov006_020fc8c0 (0x020fc8c0, size 0xf0; API clm_653624d97a98) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 32 bounded refinement; source absent on origin/main ec5566d8; DB div=6; strict oracle + linkcheck required |
+| ov006 func_ov006_02101088 (0x02101088, size 0xc0; API clm_84f67fb0219c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 material variants / ~15 min at exact-size strict div=14; improved DB 16→14; two pure register-color rotations; no src promotion |
+| ov006 func_ov006_021027e4 (0x021027e4, size 0x80; API clm_f24092f902a5) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 material variants / 736 s; candidate 0x7c vs target 0x80, missing retail `mov sl,r1` drives the register-color cascade; existing DB best retained; no src promotion |
+| ov006 func_ov006_020fc8c0 (0x020fc8c0, size 0xf0; API clm_653624d97a98) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 material variants / ~8 min at exact-size strict div=6; twin signed-64-bit multiply register-allocation wall; existing DB best retained; no src promotion |
 | ov006 func_ov006_021228bc (0x021228bc, size 0x160; API clm_4fd328256139) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after ~8 material variants / ~15–20 min; strict MATCH + linkcheck VERIFIED blind=0; PR #449 open |
 | ov006 func_ov006_021009b8 (0x021009b8, size 0x150; API clm_9b956605d2b1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 10 material variants / 718 s; strict MATCH + linkcheck VERIFIED blind=0; PR #449 open |
 | ov002 func_ov002_020f20f4 (0x020f20f4, size 0x11c; API clm_5f3e577d7a4e) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 material variants / ~13 min at exact-size strict div=17 cyclic register-coloring wall; DB improved 43→17; no src promotion |
