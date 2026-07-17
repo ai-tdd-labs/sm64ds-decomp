@@ -19,6 +19,9 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| arm9 func_0205e3d4 (0x0205e3d4, size 0x310; API clm_bd7c1638615a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
+| ov006 func_ov006_021279b0 (0x021279b0, size 0x360; API clm_ec5fdad924c3) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
+| ov002 func_ov002_020c2b08 (0x020c2b08, size 0x2b0; API clm_be20b3d0cfc9) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
 | ov006 func_ov006_020ea914 (0x020ea914, size 0x324; API clm_626be4993968) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked: best 0x2fc vs target 0x324; compiler temp/register scheduling wall |
 | arm9 func_02061188 (0x02061188, size 0x2a0; API clm_f379e9e6fc15) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — bounded lane produced no reproducible strict match; no src promotion |
 | ov002 func_ov002_020f5328 (0x020f5328, size 0x28c; API clm_24b8874e7b89) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked: exact size, 157/163 shape; pointer rematerialization/register-coloring wall |
