@@ -19,9 +19,12 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov060 func_ov060_0211747c (0x0211747c, size 0x1a8; API clm_5398781c6958) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
-| arm9 func_02060b64 (0x02060b64, size 0x148; API clm_58523416c369) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
-| ov006 func_ov006_020e1680 (0x020e1680, size 0x178; API clm_576ac7781944) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov075 func_ov075_0211afb0 (0x0211afb0, size 0x21c; API clm_45e5d3fb5b96) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| arm9 func_020676e0 (0x020676e0, size 0x1c4; API clm_f893810ec683) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov006 func_ov006_0210935c (0x0210935c, size 0x150; API clm_e16912104670) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov060 func_ov060_0211747c (0x0211747c, size 0x1a8; API clm_5398781c6958) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~20 min at strict div=66; interleaved position/trig scheduling and register-allocation wall; seed retained outside src |
+| arm9 func_02060b64 (0x02060b64, size 0x148; API clm_58523416c369) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 434 s; best 0x14c vs 0x148 with base/dtcm register and validity-test wall; seed retained outside src |
+| ov006 func_ov006_020e1680 (0x020e1680, size 0x178; API clm_576ac7781944) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 552 s at exact size strict div=29; pointer scheduling/coloring wall; seed retained outside src |
 | ov060 func_ov060_02118728 (0x02118728, size 0x10c; API clm_0ee84ee9c7d5) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 373 s at strict div=8; initial Vector3 first-access scheduling wall; seed retained outside src |
 | ov007 func_ov007_020c43bc (0x020c43bc, size 0x108; API clm_10c7734db70b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~15 min at strict div=53; table-base CSE/live-range wall; seed retained outside src |
 | ov084 func_ov084_021294d0 (0x021294d0, size 0x1e0; API clm_ad45e1d12767) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 5 material variants / ~9 min; strict MATCH + linkcheck VERIFIED blind=0; PR #448 open |
