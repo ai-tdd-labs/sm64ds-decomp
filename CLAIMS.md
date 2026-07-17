@@ -19,6 +19,8 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| ov006 func_ov006_020e5b7c (0x020e5b7c, size 0x2c0; API clm_33e9b897eb78) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
+| ov002 func_ov002_020f4d70 (0x020f4d70, size 0x2a0; API clm_70d9907f3b4c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
 | ov007 func_ov007_020c1448 (0x020c1448, size 0x70; API clm_bc5fd241756b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=8 bitfield-OR scheduling/register wall; no src change |
 | arm9 func_020432e4 (0x020432e4, size 0x78; API clm_7b45152d323c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at legacy aggregate ABI-lowering wall; no src change |
 | ov001 func_ov001_020ab3c4 (0x020ab3c4, size 0x2c; API clm_e234e325f9f6) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — stale worklist entry; tracked source already strict MATCH + linkcheck blind=0 |
