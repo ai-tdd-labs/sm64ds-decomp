@@ -19,10 +19,13 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov004 func_ov004_020b38ac (0x020b38ac, size 0xcc; API clm_7c6fc01e5d1d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 13; strict oracle + linkcheck blind=0 |
-| ov006 func_ov006_020ef5ac (0x020ef5ac, size 0x1bc; API clm_59f14a26caee) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 10; strict oracle + linkcheck blind=0 |
+| ov007 func_ov007_020c8de0 (0x020c8de0, size 0x178; API clm_c41061e03605) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 14; strict oracle + linkcheck blind=0 |
+| ov006 func_ov006_0211134c (0x0211134c, size 0x214; API clm_bcfc44e25a5b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 8; strict oracle + linkcheck blind=0 |
+| ov100 func_ov100_02146e70 (0x02146e70, size 0x19c; API clm_9db4c22ec7ef) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 28 near-miss refine, DB divergence 13; strict oracle + linkcheck blind=0 |
+| ov004 func_ov004_020b38ac (0x020b38ac, size 0xcc; API clm_7c6fc01e5d1d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — improved divergence 13 to reproducible exact-size divergence 7 after 10 variants / ~474 s; stack-address and r4/r5 residual; seed preserved outside src |
+| ov006 func_ov006_020ef5ac (0x020ef5ac, size 0x1bc; API clm_59f14a26caee) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 478 s at exact size with 13 prologue/lifetime register-color diffs; existing DB best retained |
 | ov006 func_ov006_021231ac (0x021231ac, size 0x194; API clm_06ab51d4688c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 variants / ~177 s; strict MATCH + linkcheck VERIFIED blind=0; pending next source-only PR |
-| arm9 func_020319fc (0x020319fc, size 0x188; API clm_b09d3da9088f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 11; strict oracle + linkcheck blind=0 |
+| arm9 func_020319fc (0x020319fc, size 0x188; API clm_b09d3da9088f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 771 s; exact-size 12-word stackslot/scheduling residual with body from +0xa0 exact; existing DB best retained |
 | ov007 func_ov007_020b7138 (0x020b7138, size 0x168; API clm_e451b856087c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 384 s at exact size with an 11-word r0/r1 slot-block register swap; existing DB best retained |
 | ov006 func_ov006_02103d78 (0x02103d78, size 0x158; API clm_96b0c9815d7a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — improved DB divergence 9 to reproducible exact-size divergence 6 after 10 variants / ~468 s; pure r1/r2 register-color residual; seed preserved outside src |
 | ov002 func_ov002_020c7350 (0x020c7350, size 0x2a0; API clm_cedfe750e2b1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after targeted bool/control-flow refinement / 385 s; strict MATCH + linkcheck VERIFIED blind=0; PR #445 open |
