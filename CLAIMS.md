@@ -19,9 +19,12 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov002 _ZN5Enemy15IsGoingOffCliffER12WithMeshClsn5Fix12IiEsbbS3_ (0x020ae2b8, size 0x19c; API clm_ee31be647544) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 26 near-miss refine, DB divergence 45; strict oracle + linkcheck blind=0 |
-| ov070 func_ov070_0211fd98 (0x0211fd98, size 0x210; API clm_c39192c96fc0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 26 near-miss refine, DB divergence 31; strict oracle + linkcheck blind=0 |
-| ov002 func_ov002_020ae4cc (0x020ae4cc, size 0xfc; API clm_62b35f1e894c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 26 near-miss refine, DB divergence 9; strict oracle + linkcheck blind=0 |
+| arm9 func_0203bc7c (0x0203bc7c, size 0xa8; API clm_d42b59db96f4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 9; strict oracle + linkcheck blind=0 |
+| ov002 func_ov002_020af4ec (0x020af4ec, size 0x198; API clm_cb8b15e1587a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 8; strict oracle + linkcheck blind=0 |
+| arm9 func_020408b0 (0x020408b0, size 0x1ac; API clm_6485023b8dea) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 27 near-miss refine, DB divergence 8; strict oracle + linkcheck blind=0 |
+| ov002 _ZN5Enemy15IsGoingOffCliffER12WithMeshClsn5Fix12IiEsbbS3_ (0x020ae2b8, size 0x19c; API clm_ee31be647544) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 material variants; strict MATCH + linkcheck VERIFIED blind=0; pending round 26 PR |
+| ov070 func_ov070_0211fd98 (0x0211fd98, size 0x210; API clm_c39192c96fc0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 5 material variants / 593 s; strict MATCH + linkcheck VERIFIED blind=0; pending round 26 PR |
+| ov002 func_ov002_020ae4cc (0x020ae4cc, size 0xfc; API clm_62b35f1e894c) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 498 s at exact size with nine r0/r2 register-color diffs; existing near-miss DB best retained |
 | ov102 func_ov102_0214baa0 (0x0214baa0, size 0x138; API clm_c9d08ea6be93) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 5 variants / 305 s; strict MATCH + linkcheck VERIFIED blind=0; PR #442 open |
 | ov006 func_ov006_0211bf44 (0x0211bf44, size 0x13c; API clm_0e949c10cda8) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 2 variants / 142 s; strict MATCH + linkcheck VERIFIED blind=0; PR #442 open |
 | ov002 func_ov002_020bf13c (0x020bf13c, size 0xe8; API clm_1257e477a643) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — fresh reconstruction parked after 10 variants / 545 s; semantic scalar candidate 0xd8 vs retail 0xe8 due preserved unused stackframe; near-miss DB improved |
