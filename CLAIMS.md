@@ -29,7 +29,7 @@ it is fair to take over: ping the claimant first.
 | arm9 func_02068dc8 (0x02068dc8, size 0x7c; API clm_21a387a4881a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=4 initial guard register-allocation wall; no src change |
 | ov090 func_ov090_021327e4 (0x021327e4, size 0x274; API clm_36aa8d8cc382) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=1 symmetric compare operand canonicalization; no src change |
 | ov006 func_ov006_0211dad0 (0x0211dad0, size 0xac; API clm_f07011c9c4f6) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at div=2 literal-load scheduling wall; no src change |
-| ov075 func_ov075_02118d1c (0x02118d1c, size 0x21c; API clm_f8e4ec33b745) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 14, div=6 refinement |
+| ov075 func_ov075_02118d1c (0x02118d1c, size 0x21c; API clm_f8e4ec33b745) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | done/released — PR #427 merged; exact 540 bytes, strict + linkcheck VERIFIED blind=0 |
 | ov006 func_ov006_020ce46c (0x020ce46c, size 0x208; API clm_866b7dbe4dc9) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at 0x204 compiler wall on explicit base+0x20 address materialization |
 | ov030 func_ov030_02112c14 (0x02112c14, size 0x18c; API clm_6478e922af64) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked at seven register-coloring diffs in final Vector3 setup |
 | ov007 func_ov007_020c81a0 (0x020c81a0, size 0x17c; API clm_d900d3329011) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | done/released — PR #400 merged; exact 380 bytes, strict + linkcheck VERIFIED blind=0 |
