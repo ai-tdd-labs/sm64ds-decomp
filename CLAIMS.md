@@ -19,9 +19,12 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov002 _ZN6Player19St_GroundPound_MainEv (0x020dd9f8, size 0x3f8; API clm_b06b3efa592b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh lane, DB divergence 2; strict oracle + linkcheck blind=0 |
-| ov006 func_ov006_020f9000 (0x020f9000, size 0x4f4; API clm_22b87e08bb0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh lane, DB divergence 3; strict oracle + linkcheck blind=0 |
-| ov002 _ZN6Player14St_Squish_MainEv (0x020c662c, size 0x2dc; API clm_f213be3f2a9d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 near-miss refine, DB divergence 2; strict oracle + linkcheck blind=0 |
+| ov084 func_ov084_021294d0 (0x021294d0, size 0x1e0; API clm_ad45e1d12767) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov060 func_ov060_02112724 (0x02112724, size 0x19c; API clm_c1b251fb0fde) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov002 _ZN5Enemy22SpawnMegaCharParticlesER5ActorPc (0x020adb40, size 0x280; API clm_d5d6951acd17) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — round 30 fresh unmatched lane; strict oracle + linkcheck blind=0 |
+| ov002 _ZN6Player19St_GroundPound_MainEv (0x020dd9f8, size 0x3f8; API clm_b06b3efa592b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~345 s at strict div=2; particle setup add/load scheduling wall; existing DB best retained |
+| ov006 func_ov006_020f9000 (0x020f9000, size 0x4f4; API clm_22b87e08bb0a) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~305 s at strict div=3; table-base/index register permutation; existing DB best retained |
+| ov002 _ZN6Player14St_Squish_MainEv (0x020c662c, size 0x2dc; API clm_f213be3f2a9d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 471 s at strict div=2; byte-store value register wall; existing DB best retained |
 | ov006 func_ov006_020e8f14 (0x020e8f14, size 0x28c; API clm_b0d899a1a7d4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — exact after 8 material variants / ~440 s; strict MATCH + linkcheck VERIFIED blind=0; pending next source-only PR |
 | ov006 func_ov006_020f7ee4 (0x020f7ee4, size 0x270; API clm_dabd0a7f4963) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / ~440 s at exact size with a case-0 register-allocation wall; sibling corroborates; existing DB best retained |
 | ov006 func_ov006_020f9994 (0x020f9994, size 0x258; API clm_2d4276f3ac1f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 554 s at exact size with nine case-0 register-allocation diffs; existing DB best retained |
