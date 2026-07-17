@@ -20,7 +20,7 @@ it is fair to take over: ping the claimant first.
 | Range | Who | Claimed | Status |
 |---|---|---|---|
 | ov063 func_ov063_02118914 (0x02118914, size 0xe0; API clm_efa527908605) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
-| arm9 func_020457f0 (0x020457f0, size 0xb8; API clm_10aebd9929a4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
+| arm9 func_020457f0 (0x020457f0, size 0xb8; API clm_10aebd9929a4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — near miss after 10 variants / 6.5 min: exact 0xb8 size, 27 non-reloc word diffs; register-allocation and initializer/table-load scheduling wall; best candidate ingested into near-miss DB |
 | ov007 func_ov007_020bffb8 (0x020bffb8, size 0xc0; API clm_acf523823946) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | active — strict oracle + linkcheck blind=0 |
 | arm9 func_0204322c (0x0204322c, size 0x5c; API clm_ecd937ad6080) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — documented §9 ActorBase PMF prebuilt-object wall; no src change |
 | arm9 func_02043288 (0x02043288, size 0x5c; API clm_d6f28b3c7d35) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — documented §9 ActorBase PMF prebuilt-object wall; no src change |
