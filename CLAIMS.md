@@ -19,10 +19,11 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| arm9 func_02068398 (0x02068398, size 0x78; API clm_4ab3c357413f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 37 qemu-i386+wibo; strict oracle plus linkcheck required |
+| arm9 func_02068398 (0x02068398, size 0x78; API clm_4ab3c357413f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — skipped without spending a variant because notes/mwccarm-codegen.md already documents it as a Known Wall |
 | arm9 func_020456a0 (0x020456a0, size 0x150; API clm_afad94c1125d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 37 qemu-i386+wibo; strict oracle plus linkcheck required |
 | ov006 func_ov006_020e26f8 (0x020e26f8, size 0x164; API clm_0f3c2bc83b6e) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 37 qemu-i386+wibo; strict oracle plus linkcheck required |
 | ov006 func_ov006_020e5a0c (0x020e5a0c, size 0x164; API clm_3586647174d1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 37 qemu-i386+wibo; strict oracle plus linkcheck required |
+| ov006 func_ov006_020ffde4 (0x020ffde4, size 0x170; API clm_0bd6ec410cc4) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 37 qemu-i386+wibo; strict oracle plus linkcheck required |
 | arm9 func_0204af3c (0x0204af3c, size 0xec; API clm_101cee3593c0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; best exact-size div=25, command/bitfield register-color and scheduling wall; no src promotion |
 | arm9 func_0205fb58 (0x0205fb58, size 0x78; API clm_be670a6b152b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — semantic 0x78 candidate reached strict div=9; remaining literal-load/store schedule wall; no src promotion |
 | ov002 func_ov002_020cc05c (0x020cc05c, size 0xe4; API clm_630a16e8dbbc) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; best useful seed 0xdc vs ROM 0xe4, exact-size variant structurally wrong; no src promotion |
