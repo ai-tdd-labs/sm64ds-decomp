@@ -19,6 +19,11 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
+| arm9 func_020631dc (0x020631dc, size 0x320; API clm_7d76052c886e) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — round 38 sibling func_02062df0; three-variant scout gate |
+| ov002 func_ov002_020f3de4 (0x020f3de4, size 0x318; API clm_e39153a386e4) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — round 38 sibling func_ov002_020f40fc; three-variant scout gate |
+| ov002 func_ov002_020f43cc (0x020f43cc, size 0x344; API clm_c39787f3f496) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — round 38 sibling func_ov002_020f40fc; three-variant scout gate |
+| ov002 func_ov002_020f4a2c (0x020f4a2c, size 0x344; API clm_d961d634b274) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — round 38 sibling func_ov002_020f40fc; three-variant scout gate |
+| ov006 func_ov006_020fe394 (0x020fe394, size 0x3bc; API clm_e46c3956828d) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — round 38 FloatOnWaterPlatform sibling; three-variant scout gate |
 | ov020 func_ov020_02113148 (0x02113148, size 0xb0; API clm_6f90158f1b6d) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — exact structural clone upgrade; strict MATCH + linkcheck VERIFIED diffs=[] blind=0; PR #471 open |
 | arm9 func_02068398 (0x02068398, size 0x78; API clm_4ab3c357413f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — skipped without spending a variant because notes/mwccarm-codegen.md already documents it as a Known Wall |
 | arm9 func_020456a0 (0x020456a0, size 0x150; API clm_afad94c1125d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; best 0x148 vs 0x150 with 30/84 shared-prefix words different; load scheduling and SMLABB/mask wall |
