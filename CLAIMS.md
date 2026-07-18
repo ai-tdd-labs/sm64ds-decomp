@@ -19,11 +19,11 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| arm9 func_0204af3c (0x0204af3c, size 0xec; API clm_101cee3593c0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 36 wibo-backed six-function experiment; strict oracle plus linkcheck required |
-| arm9 func_0205fb58 (0x0205fb58, size 0x78; API clm_be670a6b152b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 36 wibo-backed six-function experiment; strict oracle plus linkcheck required |
-| ov002 func_ov002_020cc05c (0x020cc05c, size 0xe4; API clm_630a16e8dbbc) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 36 six-function experiment; strict oracle plus linkcheck required |
+| arm9 func_0204af3c (0x0204af3c, size 0xec; API clm_101cee3593c0) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; best exact-size div=25, command/bitfield register-color and scheduling wall; no src promotion |
+| arm9 func_0205fb58 (0x0205fb58, size 0x78; API clm_be670a6b152b) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — semantic 0x78 candidate reached strict div=9; remaining literal-load/store schedule wall; no src promotion |
+| ov002 func_ov002_020cc05c (0x020cc05c, size 0xe4; API clm_630a16e8dbbc) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; best useful seed 0xdc vs ROM 0xe4, exact-size variant structurally wrong; no src promotion |
 | ov006 func_ov006_020dbe9c (0x020dbe9c, size 0xe0; API clm_d50534a86e15) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — wibo strict oracle confirms prior 19-word r4/ip register-color wall; no src promotion |
-| ov002 func_ov002_020cfaf0 (0x020cfaf0, size 0xec; API clm_cd19b9fef0d2) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | active — round 36 six-function experiment; strict oracle plus linkcheck required |
+| ov002 func_ov002_020cfaf0 (0x020cfaf0, size 0xec; API clm_cd19b9fef0d2) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; exact size but div=35 from RaycastLine register allocation/schedule; no src promotion |
 | arm9 func_0204335c (0x0204335c, size 0x5c; API clm_16ea1a2111c1) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — wibo strict oracle found PMF wrapper 0x68 vs 0x5c; ABI-lowering wall, no src promotion |
 | arm9 func_0201b100 (0x0201b100, size 0x288; API clm_446dc6f15c09) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — fresh reconstruction parked after 10 variants / ~14 min at exact size; strict oracle still has 126/162 differing words from stack/register allocation; new DB record created; no src promotion |
 | ov006 func_ov006_0210eca4 (0x0210eca4, size 0x2a4; API clm_6054b7ffa7ae) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-17 | released — parked after 10 variants / 1079 s; candidate 0x2a0 vs target 0x2a4 with 97.33% shape alignment; remaining scheduler/if-conversion wall; new DB record created; no src promotion |
