@@ -19,7 +19,7 @@ it is fair to take over: ping the claimant first.
 
 | Range | Who | Claimed | Status |
 |---|---|---|---|
-| ov020 func_ov020_02113148 (0x02113148, size 0xb0; API clm_6f90158f1b6d) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — round 38 structural clone upgrades committed NONMATCHING hatch; strict oracle plus linkcheck required |
+| ov020 func_ov020_02113148 (0x02113148, size 0xb0; API clm_6f90158f1b6d) | ai-tdd-labs (Codex family-first scout) | 2026-07-18 | active — exact structural clone upgrade; strict MATCH + linkcheck VERIFIED diffs=[] blind=0; PR #471 open |
 | arm9 func_02068398 (0x02068398, size 0x78; API clm_4ab3c357413f) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — skipped without spending a variant because notes/mwccarm-codegen.md already documents it as a Known Wall |
 | arm9 func_020456a0 (0x020456a0, size 0x150; API clm_afad94c1125d) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; best 0x148 vs 0x150 with 30/84 shared-prefix words different; load scheduling and SMLABB/mask wall |
 | ov006 func_ov006_020e26f8 (0x020e26f8, size 0x164; API clm_0f3c2bc83b6e) | ai-tdd-labs (Codex Sol 5.6 high) | 2026-07-18 | released — 10 wibo strict variants; exact size with div=55; whole-function register coloring and instruction scheduling wall |
